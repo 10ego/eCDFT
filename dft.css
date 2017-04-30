@@ -31,4 +31,21 @@
     border-left: 1px solid #030303;
 }
 
-
+@media screen  {
+  #wb-lng li:first-child {
+    border-left: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  #wb-lng li {
+    float: right;
+    list-style-type: none;
+    padding: 6px 15px;
+  }
+}
+@media screen {
+  #wb-lng a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
