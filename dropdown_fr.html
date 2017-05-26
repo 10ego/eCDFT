@@ -1,0 +1,116 @@
+<!DOCTYPE html><!--[if lt IE 9]>
+<html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+    wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>Info search page
+    </title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!-- Meta data -->
+    <meta name="description"
+          content="Tempra Druf Facts table">
+    <!-- Meta data-->
+    <!--[if gte IE 9 | !IE ]><!-->
+    <!--<link href="" rel="icon" type="image/x-icon">-->
+    <link rel="stylesheet" href="./theme-base/css/theme.min.css">
+    <link rel="stylesheet" href="./css/cdft.css">
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <link href="" rel="shortcut icon"/>
+    <link rel="stylesheet" href="./theme-base/css/ie8-theme.min.css"/>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <noscript>
+        <link rel="stylesheet" href="./wet-boew/css/noscript.min.css"/>
+    </noscript>
+    <script type="text/javascript">
+        function goToBrandPage()
+        {
+            var url = document.getElementById('brand').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+    <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+    </li>
+    <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+    </li>
+</ul>
+<header role="banner">
+    <div id="wb-bnr">
+        <div id="wb-bar">
+            <div class="container">
+                <div class="row">
+                    <section id="wb-lng">
+                      <h2>Sélection de la langue</h2>
+                      <ul class="text-right">
+                      <li class="curr">Français&#32;<span>(actuel)</span></li>
+                      <li><a lang="en" hreflang="en" href="Facts-Table.html">English</a></li>
+                      </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main role="main" property="mainContentOfPage" class="container">
+    <h1 id="wb-cont" property="name">Canadian Drug Facts Table - Drop down</h1>
+    <br />
+
+    <div>
+        <ul class=="cdft_menu">
+            <li class="menu_item jsSearchType">
+                <a href="search.html">Search</a>
+            </li>
+            <li class="menu_item jsSearchType">
+                <a href="filter.html">Filter</a>
+            </li>
+            <li class="menu_item jsSearchType">
+                <a href="dropdown.html">Drop-down</a>
+            </li>
+        </ul>
+    </div>
+
+    <br />
+    <br />
+
+	<div id="gs_lc0">
+<!--        Company:
+        <select id="company" class="entry-box" >
+            <option value="">All</option>
+            <option value="abbot">Abbott Laboratories</option>
+            <option value="elililly">Eli Lilly</option>
+            <option value="glaxosmithkline">GlaxoSmithKline</option>
+            <option value="pfizer">Pfizer Consumer</option>
+        </select> -->
+        Brandname:
+        <select id="brand" class="entry-box"">
+            <option value="#">All</option>
+            <option value="ultrasheer.html">Advil 12 hour</option>
+            <option value="ultrasheer.html">Robax platinum</option>
+            <option value="ultrasheer.html">Robaxacet</option>
+            <option value="ultrasheer.html">Robaxacet extra strength</option>
+        </select>
+		<input value="Search" aria-label="Search" name="btnK" onClick="goToBrandPage()" type="submit">
+	</div>
+    <div class="bottom_spacer" />
+</main>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="./wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+</body>
+</html>
